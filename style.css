@@ -1,0 +1,23 @@
+* {
+    background-color: rgb(222, 248, 248);
+}
+
+#start{
+    display:flex;
+    align-items: center;
+
+}
+#descrytion{
+    text-align:left;
+    font-family: monospace;
+    margin-left: 17px;
+    width: 30%;
+}
+#img {
+    border-radius: 75px;
+
+}
+.item {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+}
