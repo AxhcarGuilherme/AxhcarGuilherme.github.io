@@ -1,8 +1,10 @@
 * {
     background-color: rgba(219, 219, 219, 0.733);
+    padding: 10px;
 }
 #nome{
-    display: inline;
+    text-align: center;
+    
 }
 #links{
     margin-left: 50px;
@@ -27,9 +29,13 @@
 
 }
 #habilty{
-    position: static;
+    text-align: center;
 }
 .item {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
+    margin-left: 300px;
+}
+.item:nth-child(odd){
+    background-color: cadetblue;
 }
