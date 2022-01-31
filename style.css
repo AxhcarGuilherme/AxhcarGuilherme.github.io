@@ -1,21 +1,33 @@
 * {
-    background-color: rgb(222, 248, 248);
+    background-color: rgba(219, 219, 219, 0.733);
 }
-
+#nome{
+    display: inline;
+}
+#links{
+    margin-left: 50px;
+    display: inline;
+}
 #start{
     display:flex;
     align-items: center;
+    margin-left: 30px;
 
 }
 #descrytion{
     text-align:left;
-    font-family: monospace;
-    margin-left: 17px;
+    font-family: Supermercado One;
+    margin-left: 50px;
     width: 30%;
 }
 #img {
     border-radius: 75px;
+    padding: 5px;
+    background-color: aquamarine;
 
+}
+#habilty{
+    position: static;
 }
 .item {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
